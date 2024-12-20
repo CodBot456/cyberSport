@@ -1,0 +1,233 @@
+.navigation {
+    background-color: #222;
+    box-shadow: 0 8px 25px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: 80px;
+}
+
+.navigation_logo {
+    color: white;
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.navigation_logo:hover {
+    color: #ad1ae7;
+    text-shadow: 2px 2px 5px #ad1ae7;
+}
+
+.navigation_links {
+    float: right;
+}
+
+.navigation_link {
+    color: white;
+    text-decoration: none;
+    /* font-size: 18px; */
+    font-weight: 500;
+    line-height: 80px;
+    margin-left: 13px;
+    transition: 0.5s;
+}
+
+.navigation_link:hover {
+    color: #6cf4d9;
+    text-shadow: 2px 2px 5px #6cf4d9;
+}
+
+.header {
+    padding: 180px 40px;
+    width: 100%;
+    height: 80vh;
+    background: url("../img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg") center/cover no-repeat;
+}
+
+.header_title {
+
+    color: #555555;
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: 800;
+    margin-bottom: 60px;
+    width: 45%;
+}
+
+.header_text {
+    color: #555555;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.header_button {
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 30px 80px;
+    background: linear-gradient(0.25turn, #68e4ef, #6cf2dc);
+}
+
+.advantages {
+    padding: 100px 0;
+}
+
+.advantages_card {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 0 15px;
+}
+
+.advantages_card img {
+    width: 65%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.advantages_card p {
+    color: #63d7fc;
+    font-size: 30px;
+}
+
+.games {
+    margin-bottom: 35px;
+}
+
+.games_container {
+    box-shadow: 0 0 20px black;
+    padding: 20px 15px;
+}
+
+.games_card p {
+    width: 480px;
+    line-height: 35px;
+}
+
+.games_card h3 {
+    color: #6cf4d9;
+}
+
+.games_card hr {
+    background-color: #4ceed8;
+    width: 110px;
+    height: 2px;
+    border: none;
+    margin: 15px 0;
+}
+
+.games_left {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    height: 300px;
+}
+
+.games_card_title {}
+
+.games_title {
+    text-align: center;
+}
+
+.games_right {
+    display: inline-block;
+    width: 49%;
+    height: 300px;
+}
+
+.games_card_1 .games_right {
+    background: url("../img/csgo.jpg") center/cover no-repeat;
+}
+
+.games_card_2 .games_left {
+    background: url("../img/dota2.jpg") center/cover no-repeat;
+}
+
+.games_card_3 .games_right {
+    background: url("../img/apex.jpg") center/cover no-repeat;
+
+}
+
+.games_card_1 .games_left {
+    width: 500px;
+    margin: 0 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.games_card_2 .games_right {
+    width: 500px;
+    margin: 0 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.games_card_3 .games_left {
+    width: 500px;
+    margin: 0 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info_text {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.join_container {
+    box-shadow: 0 0 20px black;
+    padding: 20px 35px;
+}
+
+.join {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.join_container {
+    box-shadow: 0 0 20px black;
+    padding: 20px 65px;
+}
+
+.join_button {
+    background-color: #63d7fc;
+    /* height: 100px; */
+    padding: 35px 55px;
+}
+
+.join_button_left {
+    display: inline-block;
+    width: 49%;
+    vertical-align: center;
+}
+
+.join_text {
+    color: white;
+    font-size: 40px;
+}
+
+.join_button_right {
+    display: inline-block;
+    width: 49%;
+    vertical-align: center;
+}
+
+.join_link_button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 15px 45px;
+    border: none;
+}
